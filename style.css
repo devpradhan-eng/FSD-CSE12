@@ -1,5 +1,21 @@
-.heading1,
-.heading2,
-.heading3 {
-    color: red;
+.nav {
+  list-style: none;     /* removes bullets */
+  background-color: #1a0707;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;      /* shows items in one line */
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: #555;  /* color changes on hover */
 }
