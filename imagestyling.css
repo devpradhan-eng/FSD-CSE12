@@ -1,0 +1,10 @@
+#container{
+    display: flex;
+    
+}
+#image1{
+    border-radius: 10px;
+}
+#image2{
+    border-radius: 50%;
+}
